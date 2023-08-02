@@ -29,11 +29,17 @@ export default function Weather() {
           </span>
           <span className="temperature">{weatherData.temperature}</span>
           <span className="units">
-            <a href="#" className="celsius-link active">
+            <a
+              href="https://euphonious-strudel-280264.netlify.app/"
+              className="celsius-link active"
+            >
               °C
             </a>{" "}
             |
-            <a href="#" className="fahrenheit-link">
+            <a
+              href="https://euphonious-strudel-280264.netlify.app/"
+              className="fahrenheit-link"
+            >
               °F
             </a>
           </span>
